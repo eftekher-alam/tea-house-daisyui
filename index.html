@@ -23,8 +23,8 @@
     </style>
 </head>
 
-<body class="font-manrope container mx-auto px-8 sm:px-20 lg:px-24">
-    <header>
+<body class="font-manrope container mx-auto">
+    <header class=" px-8 sm:px-20 lg:px-24">
 
         <div class="hero py-10">
             <div class="hero-content justify-between w-full flex-col lg:flex-row-reverse">
@@ -53,7 +53,7 @@
         </div>
 
     </header>
-    <main>
+    <main class=" px-8 sm:px-20 lg:px-24">
         <!-- Our Featured Products -->
         <section class="py-10">
             <div>
@@ -180,8 +180,105 @@
             </div>
 
         </section>
+
+
+        <section class="py-10">
+            <div class="text-center">
+                <h1 class="text-3xl font-extrabold">News & Events</h1>
+                <p class="w-4/5 mx-auto">There are many variations of passages of Lorem Ipsum available, but the
+                    majority have suffered
+                    alteration in some form,
+                    by injected humour, or randomised words which don't look even slightly believable.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- card 1 -->
+                    <div class="card bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                            <img src="./images/news-1.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-left text-left">
+                            <h2 class="card-title">Collecting 8 points for discount</h2>
+                            <p>There are many variations of passages of Lorem Ipsum available.</p>
+                            <a href="#" class="font-extrabold">Learn More</a>
+                        </div>
+                    </div>
+
+                    <!-- card 2 -->
+                    <div class="card bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                            <img src="./images/news-2.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-left text-left">
+                            <h2 class="card-title">Collecting 8 points for discount</h2>
+                            <p>There are many variations of passages of Lorem Ipsum available.</p>
+                            <a href="#" class="font-extrabold">Learn More</a>
+                        </div>
+                    </div>
+
+                    <!-- card 3 -->
+                    <div class="card bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                            <img src="./images/news-3.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-left text-left">
+                            <h2 class="card-title">Collecting 8 points for discount</h2>
+                            <p>There are many variations of passages of Lorem Ipsum available.</p>
+                            <a href="#" class="font-extrabold">Learn More</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer class="bg-[#FFE9E7]">
+        <div class="px-8 sm:px-20 lg:px-24">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 pt-10 px-8 md:px-0 lg:px-20 gap-8">
+                <div class="space-y-2">
+                    <span class="footer-title">Quick Links</span>
+                    <a class="link link-hover block">Home</a>
+                    <a class="link link-hover block">About Us</a>
+                    <a class="link link-hover block">Insurance</a>
+                    <a class="link link-hover block">Privacy Policy</a>
+                </div>
+                <div class="space-y-2">
+                    <span class="footer-title">Our Service</span>
+                    <a class="link link-hover block">Life Insurance</a>
+                    <a class="link link-hover block">Car Insurance</a>
+                    <a class="link link-hover block">Health Insurance</a>
+                    <a class="link link-hover block">House Insurance</a>
+                </div>
+                <div class="space-y-2">
+                    <span class="footer-title">Help</span>
+                    <a class="link link-hover block">FAQs</a>
+                    <a class="link link-hover block">Contact Us</a>
+                </div>
+                <div class="space-y-2">
+                    <span class="footer-title">Subscribe to our newsletter</span>
+                    <div class="form-control">
+                        <div class="relative space-y-8">
+                            <div class="flex "><input type="text" placeholder="Email address"
+                                    class="bg-[#FFE9E7] border-b-2 border-black p-4" />
+                                <button class="btn bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-full">
+                                    <i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i>
+                                </button>
+                            </div>
+                            <div class="text-3xl space-x-8">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer footer-center p-4 pb-10 bg-[#FFE9E7] text-base-content">
+                <div>
+                    <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
